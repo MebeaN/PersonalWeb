@@ -4,78 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mebea's Contact</title>
-    <link rel="icon" href="./images/PP.jpg">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="./assets/images/M.PNG">
+    <link rel="stylesheet" href="assets/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&family=Dancing+Script&display=swap');
+
+        body{
+            font-family: 'Dancing Script', cursive;;
+            font-size: larger;
+        }
+    </style>
 </head>
 <body>
-    <br>
-    <div class="row">
-        <div class="col-sm-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
 
-        </div>
-
-        <div class="col-sm-6">
-            <div class="row">
-                <div class="col-sm-3">
-
-                </div>
-
-                <div class="col-sm-6">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light text-primary">
-                        <div class="navbar-nav">
-                          <a class="nav-item nav-link" href="index.html">Home</a>
-                          <a class="nav-item nav-link" href="About.html">About</a>
-                          <a class="nav-item nav-link" href="Family.html">Family</a>
-                          <a class="nav-item nav-link active" href="Contact.html">Contact</a>
-                          <a class="nav-item nav-link" href="Favorite.html">Favorite</a>
-                        </div>
-                  </nav>
-                </div>
+            </div>
+    
+            <div class="col-sm-6">
+                <nav class="navbar navbar-expand-lg navbar-light text-primary ml-3 pl-5" style="font-size: x-large;">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">Home</a>
+                        <a class="nav-item nav-link" href="About.html">About</a>
+                        <a class="nav-item nav-link" href="Family.html">Family</a>
+                        <a class="nav-item nav-link active" href="Contact.html">Contact</a>
+                        <a class="nav-item nav-link" href="Favorite.html">Favorite</a>
+                        <a class="nav-item nav-link" href="blog.html">Blog</a>
+                    </div>
+                </nav>
+    
+                <hr>
+                <h1>If you want to contact me.</h1>
                 
-                <div class="col-sm-3">
-
-                </div>
-            </div> <br>
-            <h1>If you want to contact me.</h1>
-            
-            <form action="mailto:se.mebea.nibret@gmail.com" method="POST">
-                <div class="form-group">
-                    <label for="fn">First Name</label>
-                    <input type="text" class="form-control" id="fn" pattern="[A-Z a-z]{5,}" required title="Your first name">
-                </div>
-                    
-                <div class="form-group">
-                    <label for="ln">Last Name</label>
-                    <input type="text" class="form-control" id="ln" pattern="[A-Za-z]{5,}" required title="Your last name">
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" required title="EMAIL please">
-                </div>
-                     
-                <div class="form-group">
-                    <label for="tel">Tel Number</label>
-                    <input type="tel"  class="form-control" id="tel" required pattern="[+]{1}[0-9]{12}" title="Must have + at first and 12 numbers(0-9)">
-                </div>
-                <br>
-                <button type="submit" class="btn-primary">Submit</button>
+                <form action="mailto:se.mebea.nibret@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="fn">First Name</label>
+                        <input type="text" class="form-control" id="fn" pattern="[A-Z a-z]{5,}" required title="Your first name">
+                    </div>
                         
-                </form>
-            <p>
-                Here is my email:
-            </p>
-
-            <img src="./images/EmailIcon.jpg" width="100px" height="100px">
-            <a href="se.mebea.nibret@gmail.com">se.mebea.nibret@gmail.com</a>
-
-            <footer>&copy Mebea Nibret,2020 | Thank you for everything.</footer> 
-        </div> 
-
-        <div class="col-sm-3">
-
-        </div>  
-    </div> 
+                    <div class="form-group">
+                        <label for="ln">Last Name</label>
+                        <input type="text" class="form-control" id="ln" pattern="[A-Za-z]{5,}" required title="Your last name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required title="EMAIL please">
+                    </div>
+                         
+                    <div class="form-group">
+                        <label for="tel">Tel Number</label>
+                        <input type="tel"  class="form-control" id="tel" required pattern="[+]{1}[0-9]{12}" title="Must have + at first and 12 numbers(0-9)">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                            
+                    </form>
+                <p>
+                    Here is my email:
+                </p>
+    
+                <i class="fa fa-envelope-square fa-3x pr-3"></i>
+                <a href="https://se.mebea.nibret@gmail.com">se.mebea.nibret@gmail.com</a>
+    
+                <footer class="footer mt-5">&copy Mebea Nibret,2020 | Thank you for everything.</footer>
+        </div>
+         
+        </div>
+    </div>
 
 </body>
 </html>
