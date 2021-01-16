@@ -9,11 +9,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Imbue:wght@200&display=swap');    
 
         body{
-            font-family: 'Dancing Script', cursive;;
-            font-size: larger;
+            font-family: 'Imbue', serif;
+            font-size: x-large;
+        }
+
+        #fn:focus, #ln:focus, #email:focus, #tel:focus{
+            background: #f5cb42;
+        }
+
+        #btsub:hover{
+            background-color: darkorchid;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -25,7 +34,7 @@
             </div>
     
             <div class="col-sm-6">
-                <nav class="navbar navbar-expand-lg navbar-light text-primary ml-3 pl-5" style="font-size: x-large;">
+                <nav class="navbar navbar-expand-lg navbar-light text-primary ml-3 pl-5" style="font-size: xx-large;">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" href="index.html">Home</a>
                         <a class="nav-item nav-link" href="About.html">About</a>
@@ -60,7 +69,7 @@
                         <input type="tel"  class="form-control" id="tel" required pattern="[+]{1}[0-9]{12}" title="Must have + at first and 12 numbers(0-9)">
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-lg btn-primary ml-3" id="btsub">Submit</button>
                             
                     </form>
                 <p>
@@ -70,7 +79,7 @@
                 <i class="fa fa-envelope-square fa-3x pr-3"></i>
                 <a href="https://se.mebea.nibret@gmail.com">se.mebea.nibret@gmail.com</a>
     
-                <footer class="footer mt-5">&copy Mebea Nibret,2020 | Thank you for everything.</footer>
+                <footer class="footer mt-5">&copy Mebea Nibret,2021 | Thank you for everything.</footer>
         </div>
          
         </div>
